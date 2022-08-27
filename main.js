@@ -55,7 +55,7 @@ function signIn(event){
             body: body,
             headers: headers
         })
-        .then (respnse => {
+        .then (response => {
             if(response.ok) {
                 sigininMsg.innerText = "You signed in successfully"
             }
